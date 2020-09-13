@@ -21,7 +21,7 @@ for container in containers:                    #using loop to traverse all the 
         product_name = container.div.img["alt"]    #accessing the product name
 
 
-        Price_Container = container.findAll("div" , {"class" : "col col-5-12 _2o7WAb"})   #accessing the price of the product
+        Price_Container = container.findAll("div" ,{"class" : "col col-5-12 _2o7WAb"})   #accessing the price of the product
         Price = Price_Container[0].text.strip()                                           #splitting the price so that we can access only price instead of accessing discount amount and etc
  
 
