@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup as bsoup               #importing libraries
+from bs4 import BeautifulSoup as bsoup              
 from urllib.request import urlopen as uReq
 
 
