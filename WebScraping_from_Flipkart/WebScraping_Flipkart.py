@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bsoup
 from urllib.request import urlopen as uReq
 
 
-my_url = 'https://www.flipkart.com/search?q=laptop&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off' #url of the search
+my_url = 'https://www.flipkart.com/search?q=laptop&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off' 
 uClient = uReq(my_url)
 html_page = uClient.read()
 uClient.close()
